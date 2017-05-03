@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("--- DES ---")
-        let text1 = "茶语";
+        let text1 = "nihao";
         let encodeText = DESUtil.encrypt(text1)
         if let encodeText = encodeText {
             print("加密 - \(encodeText)")
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         
         print("---- AES2 ----")
 
-        let aaa = aesEncryptString("茶语", "abcdef0123456789")
+        let aaa = aesEncryptString("你好", "abcdef0123456789")
         if let aaa = aaa {
             print("加密 - \(aaa)")
             

@@ -9,7 +9,7 @@
 #import "DESUtil.h"
 #import <CommonCrypto/CommonCryptor.h>
 #import "GTMBase64.h"
-#define gkey            @"chayu0123456789ABCDEFGHI"
+#define gkey            @"0123456789ABCDEFGHI"
 #define gIv             @"01234567"
 @implementation DESUtil
 // 加密方法
